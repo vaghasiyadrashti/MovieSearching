@@ -6,10 +6,16 @@
     box-sizing: border-box;
 }
 
+  
+
 .main {
     width: 100%;
     min-height: 100vh;
-    background-color: lightblue;
+    /* //background-color: lightblue; */
+    background-image: url('https://t4.ftcdn.net/jpg/08/45/10/75/240_F_845107561_vNhctGj9V9wtYwUTXK4AxyjyGuRDFmXL.jpg');
+    background-size: cover; /* Cover the entire screen */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-position: center; /* Center the image */
 }
 
 .row {
